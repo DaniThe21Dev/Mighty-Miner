@@ -1,4 +1,4 @@
-# Farm Helper 
+# Mighty Miner 
 - How to use?
 - Press the windows key, and r at the same time
 - Type %appdata%
