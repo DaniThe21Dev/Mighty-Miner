@@ -1,0 +1,31 @@
+{
+  "mappings": {
+    "com/jelly/MightyMiner/mixins/network/MixinNetworkManager": {
+      "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    },
+    "com/jelly/MightyMiner/mixins/client/MixinMinecraft": {
+      "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+      "Lnet/minecraft/client/shader/Framebuffer;setFramebufferColor(FFFF)V": "Lnet/minecraft/client/shader/Framebuffer;func_147604_a(FFFF)V"
+    }
+  },
+  "data": {
+    "notch": {
+      "com/jelly/MightyMiner/mixins/network/MixinNetworkManager": {
+        "channelRead0": "Lek;a(Lio/netty/channel/ChannelHandlerContext;Lff;)V"
+      },
+      "com/jelly/MightyMiner/mixins/client/MixinMinecraft": {
+        "startGame": "Lave;am()V",
+        "Lnet/minecraft/client/shader/Framebuffer;setFramebufferColor(FFFF)V": "Lbfw;a(FFFF)V"
+      }
+    },
+    "searge": {
+      "com/jelly/MightyMiner/mixins/network/MixinNetworkManager": {
+        "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      },
+      "com/jelly/MightyMiner/mixins/client/MixinMinecraft": {
+        "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+        "Lnet/minecraft/client/shader/Framebuffer;setFramebufferColor(FFFF)V": "Lnet/minecraft/client/shader/Framebuffer;func_147604_a(FFFF)V"
+      }
+    }
+  }
+}

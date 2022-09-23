@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mightyminer",
+  "name": "Mighty Miner",
+  "description": "Best miner!",
+  "version": "v0.1",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["JellyLab"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
